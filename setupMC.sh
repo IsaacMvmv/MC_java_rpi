@@ -40,25 +40,25 @@ fi
 # download java  
 if [ "$MACHINE" = "aarch64" ]; then
     if [ ! -f OpenJDK16U-jdk_aarch64_linux_hotspot_2021-05-08-12-45.tar.gz ]; then
-        wget https://github.com/chunky-milk/Minecraft/releases/download/2021-05-08-12-45/OpenJDK16U-jdk_aarch64_linux_hotspot_2021-05-08-12-45.tar.gz
+        wget https://github.com/IsaacMvmv/MC_java_rpi/releases/download/v1.0/OpenJDK16U-jdk_aarch64_linux_hotspot_2021-05-08-12-45.tar.gz
     fi
 else
     if [ ! -f OpenJDK16U-jdk_arm_linux_hotspot_2021-05-08-12-45.tar.gz ]; then
-        wget https://github.com/chunky-milk/Minecraft/releases/download/2021-05-08-12-45/OpenJDK16U-jdk_arm_linux_hotspot_2021-05-08-12-45.tar.gz
+        https://github.com/IsaacMvmv/MC_java_rpi/releases/download/v1.0/OpenJDK16U-jdk_arm_linux_hotspot_2021-05-08-12-45.tar.gz
     fi
 fi
 
 # download lwjgl3arm*
 if [ "$MACHINE" = "aarch64" ]; then
     if [ ! -f lwjgl3arm64.tar.gz ]; then
-        wget https://github.com/chunky-milk/Minecraft/raw/main/lwjgl3arm64.tar.gz
+        wget https://github.com/IsaacMvmv/MC_java_rpi/raw/main/lwjgl3arm64.tar.gz
     fi
 else
     if [ ! -f lwjgl3arm32.tar.gz ]; then
-        wget https://github.com/chunky-milk/Minecraft/raw/main/lwjgl3arm32.tar.gz
+        wget https://github.com/IsaacMvmv/MC_java_rpi/raw/main/lwjgl3arm32.tar.gz
     fi
     if [ ! -f lwjgl2arm32.tar.gz ]; then
-        wget https://github.com/chunky-milk/Minecraft/raw/main/lwjgl2arm32.tar.gz
+        wget https://github.com/IsaacMvmv/MC_java_rpi/raw/main/lwjgl2arm32.tar.gz
     fi
 fi
 
