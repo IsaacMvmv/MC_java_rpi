@@ -44,7 +44,7 @@ if [ "$MACHINE" = "aarch64" ]; then
     fi
 else
     if [ ! -f OpenJDK16U-jdk_arm_linux_hotspot_2021-05-08-12-45.tar.gz ]; then
-        https://github.com/IsaacMvmv/MC_java_rpi/releases/download/v1.0/OpenJDK16U-jdk_arm_linux_hotspot_2021-05-08-12-45.tar.gz
+        wget https://github.com/IsaacMvmv/MC_java_rpi/releases/download/v1.0/OpenJDK16U-jdk_arm_linux_hotspot_2021-05-08-12-45.tar.gz
     fi
 fi
 
